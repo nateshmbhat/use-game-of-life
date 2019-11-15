@@ -3,7 +3,7 @@ import useGameOfLife from 'use-game-of-life' ;
 
 const App  = () => {
 
-  const {grid , setCell ,  start , stop , isRunning  } = useGameOfLife({updateInterval : 25 , randomizeGrid : true , randomGridAlivePercent : 30 }) ;
+  const {grid , setCell ,  start , stop , isRunning  } = useGameOfLife({updateInterval : 250 , randomizeGrid : true , randomGridAlivePercent : 30 }) ;
 
   return (
     <>

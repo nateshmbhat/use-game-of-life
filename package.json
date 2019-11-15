@@ -21,9 +21,8 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
- 
   "peerDependencies": {
-    "react": "^16.8.6" , 
+    "react": "^16.8.6",
     "immer": "^5.0.0"
   },
   "devDependencies": {
@@ -32,7 +31,7 @@
     "@types/jest": "^23.3.13",
     "@types/react": "^16.7.22",
     "cross-env": "^5.2.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-scripts": "^3.0.1",
     "rollup": "^1.1.2",
@@ -57,5 +56,8 @@
     "conway's game of life",
     "conways game of life",
     "conways game"
-  ]
+  ],
+  "dependencies": {
+    "immer": "^5.0.0"
+  }
 }
