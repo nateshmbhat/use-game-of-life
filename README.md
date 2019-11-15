@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save use-game-of-life
+npm install use-game-of-life
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ import useGameOfLife from 'use-game-of-life' ;
 
 const App  = () => {
 
-  const {grid , setCell ,  start , stop , isRunning  } = useGameOfLife({updateInterval : 25 , randomizeGrid : true , randomGridAlivePercent : 30 }) ;
+  const {grid , setCell ,  start , stop , isRunning  } = useGameOfLife({updateInterval : 25 , gridRows : 50 , gridColumns : 50 , randomizeGrid : true , randomGridAlivePercent : 30 }) ;
 
   return (
     <>
@@ -53,6 +53,18 @@ const App  = () => {
       }}>{isRunning()? 'Stop' : 'Start'}</button>
     </>
   );
+}
+```
+
+
+### Prop defaults :
+```ts
+{ 
+  updateInterval = 500,
+  gridRows = 50, 
+  gridColumns = 50, 
+  randomizeGrid = false, 
+  randomGridAlivePercent = 50  // applied when randomizeGrid is true
 }
 ```
 
