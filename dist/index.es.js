@@ -852,7 +852,6 @@ var produce = immer.produce;
  * This function is a producer, which means copy-on-write is in effect.
  */
 var applyPatches$1 = produce(applyPatches);
-//# sourceMappingURL=immer.module.js.map
 
 var useGameOfLife = function (_a) {
     var _b = _a.updateInterval, updateInterval = _b === void 0 ? 500 : _b, _c = _a.gridRows, gridRows = _c === void 0 ? 50 : _c, _d = _a.gridColumns, gridColumns = _d === void 0 ? 50 : _d, _e = _a.randomizeGrid, randomizeGrid = _e === void 0 ? false : _e, _f = _a.randomGridAlivePercent, randomGridAlivePercent = _f === void 0 ? 50 : _f;
@@ -939,7 +938,6 @@ var useGameOfLife = function (_a) {
     }, []);
     return { grid: grid, setCell: setCell, start: start, stop: stop, isRunning: isRunning, clearGrid: clearGrid };
 };
-//# sourceMappingURL=index.jsx.map
 
 export default useGameOfLife;
 //# sourceMappingURL=index.es.js.map
