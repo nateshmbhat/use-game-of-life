@@ -1,7 +1,7 @@
 {
   "name": "use-game-of-life",
   "version": "1.0.0",
-  "description": "An easy to use `useGameOfLife` custom react hook implementation gives anyone the power to hook on to the game of life.",
+  "description": "An easy to use custom react hook implementation gives anyone the power to hook on to the game of life.",
   "author": "nateshmbhat",
   "license": "MIT",
   "repository": "nateshmbhat/use-game-of-life",
@@ -21,9 +21,10 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+ 
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^16.8.6" , 
+    "immer": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
